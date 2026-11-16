@@ -1,0 +1,47 @@
+/* Global base styles (component styles are scoped in each .vue file) */
+:root {
+  --dark: #1c1948;
+  --primary: #6644ff;
+  --primary-light: #efeaff;
+  --text: #2d2b4a;
+  --muted: #6b6a85;
+  --bg: #f7f6fc;
+  --white: #ffffff;
+  --radius: 16px;
+  --shadow: 0 10px 30px rgba(28, 25, 72, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
