@@ -85,6 +85,7 @@ const browseLinks = [
         </div>
 
         <router-link to="/contact" class="nav-link" active-class="active">Contact</router-link>
+        <router-link to="/dashboard" class="nav-link" active-class="active">Dashboard</router-link>
         <router-link to="/browse/events" class="nav-cta">Find Events</router-link>
       </nav>
     </div>
