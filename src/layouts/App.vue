@@ -30,10 +30,11 @@ import Breadcrumb from '@/components/app/Breadcrumb.vue'
 .main-content {
   flex: 1;
   width: 100%;
-  max-width: 1200px;
+  /* MARGIN SYSTEM: konten dibatasi lebar maksimum & diberi jarak samping konsisten */
+  max-width: var(--container-max);
   margin: 0 auto;
   /* leave room for the fixed navbar */
-  padding: 96px 1.5rem 3rem;
+  padding: calc(var(--navbar-height) + var(--space-8)) var(--space-6) var(--space-12);
 }
 
 .footer {
